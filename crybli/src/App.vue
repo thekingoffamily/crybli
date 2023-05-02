@@ -4,7 +4,7 @@
       <img src="../public/img/icons/crybli.jpg" class="logo" alt="logo" />
     </header>
     <main>
-      <router-view />
+      <p>Crybli update's very soon...</p>
     </main>
     <footer>
       <div class="white-line"></div>

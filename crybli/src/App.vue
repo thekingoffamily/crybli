@@ -14,6 +14,10 @@
 </template>
 
 <style>
+
+  body {
+    background-color: #000;
+  }
   /* Стили для белой полосы в футере */
   .white-line {
     height: 3px;

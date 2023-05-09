@@ -9,9 +9,9 @@
     <footer>
       <div class="white-line"></div>
         <a href="https://github.com/thekingoffamily/crybli/tree/master/crybli" target="_blank">Project on GitHub</a>
+        <p style="color:aliceblue;">Contract: 0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2</p>
         <a href="https://bscscan.com/token/0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2" target="_blank">Contract on BscScan</a>
         <a href="https://pancakeswap.finance/swap?outputCurrency=0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2&chainId=56&inputCurrency=BNB">Buy in PancakeSwap</a>
-        <p>Contract: 0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2</p>
     </footer>
   </div>
 </template>

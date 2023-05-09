@@ -46,6 +46,6 @@
   main {
     color: aliceblue;
     text-align: center;
-    height: 50%;
+    height: 50vh;
   }
 </style>

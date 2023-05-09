@@ -43,7 +43,7 @@
     height: 150px;
   }
 
-  .main {
+  main {
     color: aliceblue;
     text-align: center;
     height: 50%;

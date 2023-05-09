@@ -8,7 +8,10 @@
     </main>
     <footer>
       <div class="white-line"></div>
-        <a href="https://github.com/thekingoffamily/crybli/tree/master/crybli" target="_blank">Crybli's startup teams github repository</a>
+        <a href="https://github.com/thekingoffamily/crybli/tree/master/crybli" target="_blank">Project on GitHub</a>
+        <a href="https://bscscan.com/token/0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2" target="_blank">Contract on BscScan</a>
+        <a href="https://pancakeswap.finance/">Buy in PancakeSwap</a>
+        <p>Contract: 0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2</p>
     </footer>
   </div>
 </template>
@@ -20,8 +23,8 @@
   }
   /* Стили для белой полосы в футере */
   .white-line {
-    height: 3px;
-    background-color: #fff;
+    /* height: 3px;
+    background-color: #fff; */
   }
 
   /* Стили для ссылки на GitHub репозиторий */
@@ -38,5 +41,11 @@
     margin: 20px auto;
     width: 150px;
     height: 150px;
+  }
+
+  .main {
+    color: aliceblue;
+    text-align: center;
+    height: 50%;
   }
 </style>

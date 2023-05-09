@@ -47,5 +47,6 @@
     color: aliceblue;
     text-align: center;
     height: 50vh;
+    font-size: 22px;
   }
 </style>

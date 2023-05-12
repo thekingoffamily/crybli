@@ -4,7 +4,7 @@
     <main>
       <p>Crybli update's very soon...</p>
       <br>
-      <br>
+      <br>{{ this.btcPrice }}
       <br>
       <p>Contract: 0x5f69330c89B157CcCf042B138DC8cf4aa6F6ceA2</p>
     </main>
@@ -17,6 +17,23 @@
     </footer>
   </div>
 </template>
+
+<script>
+
+export default({
+  data(){
+    return{
+      btcPrice: '',
+    }
+  },
+  methods:{
+    getBtcPrice(){
+      this.btcPrice = fetch('http://localhost:8080/getBtcPrice');
+    },
+  }
+})
+
+</script>
 
 <style>
 

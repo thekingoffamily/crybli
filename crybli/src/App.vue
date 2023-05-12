@@ -1,8 +1,6 @@
 <template>
   <div>
-    <header>
-      <img src="../public/img/icons/crybli.jpg" class="logo" alt="logo" />
-    </header>
+    <img src="../public/img/icons/crybli.jpg" class="logo" alt="logo" />
     <main>
       <p>Crybli update's very soon...</p>
       <br>

@@ -30,7 +30,12 @@ export default({
     getBtcPrice(){
       this.btcPrice = fetch('http://localhost:8080/getBtcPrice');
     },
+  },
+
+  mounted(){
+    setInterval(()=>{this.getBtcPrice();}, 10000);
   }
+
 })
 
 </script>

@@ -20,6 +20,8 @@
 
 <script>
 
+import axios from 'axios';
+
 export default({
   data(){
     return{
@@ -28,7 +30,7 @@ export default({
   },
   methods:{
     getBtcPrice(){
-      this.btcPrice = fetch('http://localhost:8080/getBtcPrice');
+      this.btcPrice = axios.get('http://localhost:8080/getBtcPrice');
     },
   },
 
